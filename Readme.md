@@ -1,7 +1,5 @@
 # FinHelper
 
-> If you want o get the most updated code for our project, please visit our [github repo](https://github.com/liuweikarlie/FinHelper)
-
 if we just run the llm in our local machine, this would be really low speed. In order to make the application more user friendly, we move all the llm in the remote machine. 
 
 In this project, we rent the GPU machine in autodl (A100,cuda 12.1), when there is need to use the llm, we would send the question to the remote machine, and then remote machine would do the inference work. The result would then send to local machine. The connection is established using ssh.
