@@ -53,7 +53,7 @@ python RAG_main/server.py
 
 ```bash
 
-pip install yfinance pyautogen langchain requests streamlit serpapi openai pandas langchain langchain-community langchain-core langchain-experimental langchain-groq langchain-openai flask duckduckgo_search 
+pip install yfinance ag2 langchain requests streamlit serpapi openai pandas langchain langchain-community langchain-core langchain-experimental langchain-groq langchain-openai flask duckduckgo_search 
 
 ```
 
